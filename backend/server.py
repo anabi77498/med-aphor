@@ -1,5 +1,6 @@
 from flask import Flask, request, make_response, jsonify
 import requests
+import scraper
 
 app = Flask(__name__)
 
@@ -10,15 +11,13 @@ def index():
 @app.route('/query', methods=['POST'])
 def get_query():
     #we have the data
-    data = request.json['query'] + " remedy"
-    
-    # we scrape data with metaphor & openai (src/scraper)
-    
-    response_data = { 
+    data = request.json['query']
+    response_data = scraper.med_scraper(data)
+    user_response = { 
             "issue" : data, 
-            "response1" : ["ibuprofen", "this is a good medication for malaria"]
+            "response" : response_data
         } 
-    json_resp = jsonify(response_data)
+    json_resp = jsonify(user_response)
     print(json_resp)
     return json_resp
 

@@ -4,3 +4,5 @@ parsel
 dateparser
 Flask
 metaphor-python
+pandas
+openai
