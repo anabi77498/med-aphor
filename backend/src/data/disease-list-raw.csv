@@ -1,0 +1,616 @@
+disease
+Fever
+Headache
+Fatigue
+Nausea
+Vomiting
+Diarrhea
+Cough
+Sore throat
+Shortness of breath
+Chest pain
+Muscle aches
+Joint pain
+Dizziness
+Vertigo
+Fainting
+Rapid heartbeat
+Irregular heartbeat
+High blood pressure
+Low blood pressure
+Swelling
+Rash
+Itching
+Hives
+Bruising
+Bleeding
+Pale skin
+Jaundice (Yellowing of skin/eyes)
+Dark urine
+Light-colored stools
+Abdominal pain
+Bloating
+Gas
+Constipation
+Diarrhea
+Blood in stool
+Blood in urine
+Painful urination
+Frequent urination
+Decreased urination
+Difficulty swallowing
+Heartburn
+Acid reflux
+Belching
+Nausea
+Vomiting
+Blood in vomit
+Changes in appetite
+Unexplained weight loss
+Excessive thirst
+Increased hunger
+Excessive urination
+Fatigue
+Weakness
+Joint pain
+Muscle pain
+Stiffness
+Swelling
+Redness
+Warmth in joints
+Bone pain
+Back pain
+Neck pain
+Headache
+Vision changes
+Eye pain
+Eye discharge
+Hearing loss
+Ear pain
+Ring in the ears (Tinnitus)
+Balance problems
+Loss of coordination
+Memory problems
+Confusion
+Difficulty concentrating
+Mood swings
+Depression
+Anxiety
+Panic attacks
+Hallucinations
+Delusions
+Paranoia
+Numbness
+Tingling
+Weakness in limbs
+Loss of sensation
+Difficulty speaking
+Slurred speech
+Difficulty swallowing
+Loss of balance
+Seizures
+Tremors
+Muscle spasms
+Difficulty walking
+Loss of consciousness
+Memory loss
+Trouble sleeping
+Fatigue
+Daytime sleepiness
+Snoring
+Gasping for breath during sleep
+Insomnia
+Restless legs
+Nightmares
+Changes in bowel habits
+Abdominal pain
+Blood in stool
+Blood in vomit
+Indigestion
+Nausea
+Vomiting
+Jaundice (Yellowing of skin/eyes)
+Dark urine
+Light-colored stools
+Appetite changes
+Unexplained weight loss
+Chest pain
+Shortness of breath
+Rapid heartbeat
+Swelling in legs/ankles
+Cough
+Wheezing
+Difficulty breathing
+Coughing up blood
+Sore throat
+Fever
+Chills
+Sweating
+Swollen lymph nodes
+Fatigue
+Weight loss
+Night sweats
+Dry cough
+Shortness of breath
+Chest pain
+Rapid heartbeat
+Swelling in legs/ankles
+Difficulty breathing
+Changes in bowel habits
+Blood in stool
+Abdominal pain
+Bloating
+Gas
+Changes in urine habits
+Blood in urine
+Frequent urination
+Painful urination
+Erectile dysfunction
+Irregular menstrual periods
+Pelvic pain
+Vaginal bleeding
+Breast lumps
+Nipple discharge
+Changes in breast appearance
+COVID-19
+Influenza
+Diabetes
+Hypertension
+Asthma
+Arthritis
+Alzheimer's disease
+Heart disease
+Stroke
+Cancer
+Chronic obstructive pulmonary disease (COPD)
+Parkinson's disease
+HIV/AIDS
+Tuberculosis
+Malaria
+Hepatitis B
+Hepatitis C
+Lyme disease
+Pneumonia
+Bronchitis
+Osteoporosis
+Multiple sclerosis
+Fibromyalgia
+Irritable bowel syndrome (IBS)
+Crohn's disease
+Ulcerative colitis
+Kidney disease
+Liver disease
+Cystic fibrosis
+Epilepsy
+Migraine
+Chronic kidney disease
+Schizophrenia
+Bipolar disorder
+Depression
+Anxiety disorders
+Autism
+Attention deficit hyperactivity disorder (ADHD)
+Anorexia
+Bulimia
+Obsessive-compulsive disorder (OCD)
+Post-traumatic stress disorder (PTSD)
+Rheumatoid arthritis
+Psoriasis
+Eczema
+Allergies
+Acne
+Glaucoma
+Macular degeneration
+Cataracts
+Sleep apnea
+Insomnia
+Restless legs syndrome
+Gastroesophageal reflux disease (GERD)
+Chronic sinusitis
+Tinnitus
+Menopause
+Erectile dysfunction
+Premature ejaculation
+Endometriosis
+Polycystic ovary syndrome (PCOS)
+Fibroids
+Urinary tract infection (UTI)
+Chlamydia
+Gonorrhea
+Syphilis
+HPV (Human papillomavirus)
+Herpes
+Candidiasis (Yeast infection)
+Cholera
+Typhoid
+Measles
+Chickenpox
+Rubella
+Whooping cough (Pertussis)
+Dengue fever
+Zika virus
+West Nile virus
+Ebola
+SARS (Severe Acute Respiratory Syndrome)
+MRSA (Methicillin-resistant Staphylococcus aureus)
+Celiac disease
+Gout
+Diverticulitis
+Gallstones
+Pancreatitis
+Appendicitis
+Hemorrhoids
+Varicose veins
+Deep vein thrombosis (DVT)
+Osteoarthritis
+Temporomandibular joint disorder (TMJ)
+Tonsillitis
+Strep throat
+Inguinal hernia
+Meningitis
+Epiglottitis
+Shingles
+Cellulitis
+Impetigo
+Ringworm
+Athlete's foot
+Scabies
+Head lice
+Pink eye (Conjunctivitis)
+Hypothyroidism
+Hyperthyroidism
+Anemia
+Leukemia
+Lymphoma
+Sickle cell disease
+Hemophilia
+Thalassemia
+Polio
+Muscular dystrophy
+Osteoporosis
+Osteoarthritis
+Rheumatoid arthritis
+Psoriatic arthritis
+Systemic lupus erythematosus (SLE)
+Scleroderma
+Gastroesophageal reflux disease (GERD)
+Irritable bowel syndrome (IBS)
+Diverticulosis
+Diverticulitis
+Cirrhosis
+Pancreatitis
+Gallstones
+Peptic ulcers
+Celiac disease
+Hemorrhoids
+Gastroenteritis
+Hepatitis A
+Hepatitis E
+Pneumonia
+Tuberculosis
+Bronchitis
+Emphysema
+Pulmonary embolism
+Deep vein thrombosis (DVT)
+Hypertension
+Atherosclerosis
+Peripheral artery disease
+Migraine
+Cluster headache
+Trigeminal neuralgia
+Tension headache
+Fibromyalgia
+Chronic fatigue syndrome
+Myasthenia gravis
+Bell's palsy
+Carpal tunnel syndrome
+Polycystic kidney disease
+Endometriosis
+Polycystic ovary syndrome (PCOS)
+Uterine fibroids
+Ovarian cysts
+Prostate cancer
+Testicular cancer
+Erectile dysfunction
+Premature ejaculation
+Benign prostatic hyperplasia (BPH)
+Interstitial cystitis
+Ovarian cancer
+Bladder cancer
+Kidney stones
+Hypoglycemia
+Addison's disease
+Cushing's syndrome
+Raynaud's disease
+Hypertrophic cardiomyopathy
+Dilated cardiomyopathy
+Arrhythmia
+Atrial fibrillation
+Aortic aneurysm
+Peripheral neuropathy
+Restless legs syndrome
+Temporomandibular joint disorder (TMJ)
+Otitis media (Ear infection)
+Meniere's disease
+Tinnitus
+Macular degeneration
+Glaucoma
+Retinal detachment
+Keratoconus
+Plantar fasciitis
+Osteomyelitis
+Gout
+Bursitis
+Tendinitis
+Impingement syndrome
+Tennis elbow
+Golfer's elbow
+Meniscus tear
+ACL injury
+Rotator cuff tear
+Patellofemoral pain syndrome
+Whiplash
+Plantar warts
+Athlete's foot
+Jock itch
+Scabies
+Ringworm
+Shingles
+Cellulitis
+MRSA (Methicillin-resistant Staphylococcus aureus)
+E. coli infection
+Salmonella infection
+Food poisoning
+Lyme disease
+West Nile virus
+Zika virus
+Dengue fever
+Yellow fever
+Chikungunya
+Chagas disease
+Leishmaniasis
+Malaria
+Typhoid
+Tetanus
+Rabies
+Botulism
+Anthrax
+Cholera
+Giardiasis
+Norovirus
+Influenza
+Measles
+Rubella
+Mumps
+Pertussis (Whooping cough)
+Polio
+Smallpox
+Chickenpox
+Scarlet fever
+Fifth disease
+Roseola
+Thrush
+Mononucleosis
+Hepatitis B
+Hepatitis C
+HIV/AIDS
+Obesity
+Malnutrition
+Bulimia nervosa
+Anorexia nervosa
+Binge-eating disorder
+Sleep apnea
+Insomnia
+Restless leg syndrome
+Narcolepsy
+Night terrors
+Borderline personality disorder
+Antisocial personality disorder
+Narcissistic personality disorder
+Histrionic personality disorder
+Obsessive-compulsive personality disorder
+Schizoid personality disorder
+Dissociative identity disorder (DID)
+Seasonal affective disorder (SAD)
+Premenstrual syndrome (PMS)
+Premenstrual dysphoric disorder (PMDD)
+Substance abuse disorder
+Alcoholism
+Opioid addiction
+Cocaine addiction
+Methamphetamine addiction
+Nicotine addiction
+Inhalant abuse
+Gambling addiction
+Internet addiction
+Gaming disorder
+Hoarding disorder
+Body dysmorphic disorder
+Trichotillomania (Hair-pulling disorder)
+Excoriation disorder (Skin-picking disorder)
+Oppositional defiant disorder (ODD)
+Conduct disorder
+Separation anxiety disorder
+Generalized anxiety disorder (GAD)
+Social anxiety disorder
+Panic disorder
+Agoraphobia
+Specific phobias
+Acute stress disorder
+Adjustment disorder
+Postpartum depression
+Bipolar II disorder
+Cyclothymic disorder
+Body dysmorphic disorder
+Impulse control disorders
+Kleptomania
+Pyromania
+Intermittent explosive disorder
+Factitious disorder
+Somatization disorder
+Conversion disorder
+Body integrity identity disorder (BIID)
+Paraphilic disorders
+Exhibitionism
+Voyeurism
+Frotteurism
+Pedophilic disorder
+Gender dysphoria
+Schizoaffective disorder
+Brief psychotic disorder
+Delusional disorder
+Paranoid personality disorder
+Dependent personality disorder
+Avoidant personality disorder
+Depersonalization/derealization disorder
+Eating disorders
+Rumination disorder
+Avoidant/restrictive food intake disorder (ARFID)
+Tic disorders
+Tourette's syndrome
+Persistent (Chronic) motor or vocal tic disorder
+Stereotypic movement disorder
+Encopresis
+Enuresis
+Reactive attachment disorder
+Disinhibited social engagement disorder
+Selective mutism
+Encopresis
+Encopresis
+Asperger's syndrome
+Conduct disorder
+Oppositional defiant disorder
+Reactive attachment disorder
+Developmental coordination disorder
+Specific learning disorder
+Expressive language disorder
+Stuttering
+Communication disorder
+Separation anxiety disorder
+Selective mutism
+Mad cow disease
+Sepsis
+Dandruff
+Bed sores
+Eczema
+Rosacea
+Psoriasis
+Cystic fibrosis
+Rickets
+Cushing's syndrome
+Addison's disease
+Grave's disease
+Hashimoto's thyroiditis
+Polycystic liver disease
+Polycystic spleen disease
+Polycystic ovary syndrome (PCOS)
+Paget's disease of bone
+Huntington's disease
+Amyotrophic lateral sclerosis (ALS)
+Multiple system atrophy (MSA)
+Tourette's syndrome
+Schizotypal personality disorder
+Depersonalization/derealization disorder
+Conversion disorder
+Factitious disorder
+Substance-induced disorders
+Hoarding disorder
+Selective mutism
+Grief
+Dissociative fugue
+Cyclothymic disorder
+Rumination disorder
+Schizoaffective disorder
+Dissociative identity disorder (DID)
+Delusional disorder
+Brief psychotic disorder
+Acute stress disorder
+Depersonalization/derealization disorder
+Somatic symptom disorder
+Illness anxiety disorder
+Trichotillomania (Hair-pulling disorder)
+Excoriation disorder (Skin-picking disorder)
+Sleepwalking (Somnambulism)
+Nightmares
+Sleep paralysis
+Sleep-related eating disorder
+Non-24-hour sleep-wake disorder
+Delayed sleep phase disorder (DSPD)
+Advanced sleep phase disorder (ASPD)
+Shift work sleep disorder
+Hypersomnia
+Kleine-Levin syndrome (KLS)
+Restless legs syndrome (RLS)
+Circadian rhythm sleep disorders
+Rapid eye movement (REM) sleep behavior disorder
+Delayed ejaculation
+Premature ejaculation
+Erectile dysfunction
+Female sexual interest/arousal disorder
+Vaginismus
+Dyspareunia
+Trichomoniasis
+Bacterial vaginosis
+Gonorrhea
+Chlamydia
+Pelvic inflammatory disease (PID)
+Genital herpes
+Genital warts
+Syphilis
+Scabies
+Lice (Pediculosis)
+Pinworm infection (Enterobiasis)
+Giardiasis
+Cryptosporidiosis
+Toxoplasmosis
+Malaria
+Dengue fever
+Yellow fever
+Chikungunya
+West Nile virus
+Zika virus
+Anthrax
+Botulism
+Brucellosis
+Hantavirus pulmonary syndrome (HPS)
+Lassa fever
+Marburg virus disease
+Yellow fever
+Typhus
+Rocky Mountain spotted fever
+Lyme disease
+Legionnaires' disease
+Q fever
+Pontiac fever
+Tuberculosis
+Tetanus
+Rabies
+Mumps
+Measles
+Rubella
+Smallpox
+Chickenpox
+Fifth disease
+Roseola
+Thrush
+Mononucleosis
+Shingles
+Cellulitis
+Impetigo
+Athlete's foot
+Jock itch
+Ringworm
+Pink eye (Conjunctivitis)
+covid
+coronavirus
+aids
+hiv
+gonorrhea
+syphilis
+flu
+cold
+cold sores
+erectile dysfunction
+fatigue
+strep 
+strep throat
