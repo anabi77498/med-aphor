@@ -103,3 +103,11 @@ The creation of Med-aphor includes
 - Raw data cleaning and wrangling of disease information to filter nonsensical inputs
 - Dual integration of Metaphor API and OpenAI API
 - Robust error & exception checking across http requests and web-scraping calls
+
+## Med-aphor in action
+
+
+https://github.com/anabi77498/med-aphor/assets/104233184/e41fe3e6-18d5-440f-bfe2-54293eb1720e
+
+
+
