@@ -29,8 +29,7 @@ def med_scraper(condition):
     
     path_to_clean = os.path.join('./', 'data', 'disease-list-clean.csv')
     path_to_raw = os.path.join('./', 'data', 'disease-list-raw.csv')
-    print(path_to_clean)
-    print(path_to_raw)
+
 
 
     if not (os.path.exists(path_to_raw)):
@@ -41,15 +40,11 @@ def med_scraper(condition):
     df = pd.read_csv(path_to_clean)
 
     condition = dfc.clean_string(condition)
-
-    # print(df.head())
     
     if condition not in df.values:
         raise ValueError("Not a disease")
-    # else:
-    #     print("Disease")
     
-    prompt = condition + " at-home remedies/treatment"
+    prompt = condition + " home remedies and treatment"
     
     
     metaphor = Metaphor(API_KEYS["METAPHOR_API_KEY"])
@@ -57,7 +52,7 @@ def med_scraper(condition):
     response_meta = metaphor.search(
         prompt,
         num_results=5,
-        use_autoprompt=True,
+        use_autoprompt=False,
     )
 
     # print(response)

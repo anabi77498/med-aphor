@@ -55,7 +55,7 @@ export const Search = () => {
                   height={100} width={50} />
           </div> : ""}
           <section className="med-resp">
-            {(meddata == '') ? '' : <h4>{prevquery + " information and remedies"} </h4>}
+            <h4>{(meddata == '') ? '' : prevquery + " information and remedies"}</h4>
             <p>{meddata}</p>
           </section>
         </main>

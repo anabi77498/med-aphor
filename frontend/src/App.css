@@ -42,6 +42,10 @@
 }
 
 .search-bar{
+  /* position: fixed; */
+  flex-grow: 0;
+  /* top: 50px; */
+  max-width: 440px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,6 +57,7 @@
 
 .search-bar .form-search{
   display: flex;
+  flex-grow: 0;
   justify-content: center;
   align-items: center;
   gap: 7px;
@@ -79,6 +84,8 @@
 }
 
 .loading {
+  /* margin-top: 200px; */
+  margin-top: -40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,6 +93,7 @@
 }
 
 .med-resp {
+  /* margin-top: 200px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -95,9 +103,17 @@
 }
 
 .med-resp h4 {
-  margin-bottom: -10px
+  margin-bottom: -2px
 }
 
 .med-resp p {
   text-align: left;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
 }
