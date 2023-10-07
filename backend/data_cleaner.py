@@ -7,19 +7,17 @@ import numpy as np
 import re
 
 def clean_string(s):
-    '''
-    clean's string which involves lower-casing, removing spaces, punc
-    '''
+    ''' clean's string which involves lower-casing, removing spaces, punc '''
+    
     clean_s = s.lower().replace(" ", "")
     clean_s = clean_s.translate(str.maketrans('', '', string.punctuation))
     return clean_s
 
 
 def clean_df(import_path, export_path):
-    '''
-    function that cleans the disease-list-raw dataset in /data/disease-list-raw
-    and outputs a cleaned version with no duplicates, spacing and punctuation
-    '''
+    
+    ''' function that cleans the disease-list-raw dataset in /data/disease-list-raw
+    and outputs a cleaned version with no duplicates, spacing and punctuation'''
 
     disease_list = pd.read_csv(import_path)
 

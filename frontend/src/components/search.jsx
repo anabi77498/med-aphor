@@ -12,14 +12,15 @@ export const Search = () => {
   const [prevquery, setprevQuery] = useState("")
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent the default form submission behavior
+    e.preventDefault(); 
+
+    // updating states
     setPostValue(query);
     setprevQuery('')
     setMedData('')
     setSubmitted(true);
-    // const request = JSON.stringify({'query' : query});
 
-    console.log(query);
+    // fetching responses from backend
     axios.post("http://localhost:5000/query", {query})
     .then(resp => {
         setSubmitted(false)

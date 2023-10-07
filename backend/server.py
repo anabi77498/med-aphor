@@ -12,7 +12,6 @@ def index():
 
 @app.route('/query', methods=['POST'])
 def get_query():
-    #we have the data
     data = request.json["query"]
     try:
         response_data = scraper.med_scraper(data)
