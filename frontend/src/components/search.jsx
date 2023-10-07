@@ -43,7 +43,7 @@ export const Search = () => {
               <FaSearch id="search-icon" className="search-icon"/>
               </button>
               <input type="query" 
-              placeholder="arthiritis, athletes foot, whooping cough, etc" 
+              placeholder="arthritis, athletes foot, flu, etc" 
               value={query} 
               onChange={(e) => setQuery(e.target.value)}/>
             </div>

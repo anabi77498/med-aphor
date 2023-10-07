@@ -13,12 +13,12 @@ def index():
 @app.route('/query', methods=['POST'])
 def get_query():
     data = request.json["query"]
+    print(data)
+
     try:
         response_data = scraper.med_scraper(data)
     except ValueError:
         response_data = f"I can't find anything on {data}. Make sure you spelled it correctly and if it is a real disease!"
-    except:
-        response_data = "Uh-oh something went wrong. Please try again later"
 
     user_response = { 
             "issue" : data, 

@@ -33,20 +33,21 @@ def med_scraper(condition):
     # local paths
     path_to_clean = os.path.join('./', 'data', 'disease-list-clean.csv')
     path_to_raw = os.path.join('./', 'data', 'disease-list-raw.csv')
-
+    print("1")
     # check if datasets exist
     if not (os.path.exists(path_to_raw)):
         raise Exception("Disease List not Found, please ensure file exists")
     elif not (os.path.exists(path_to_clean)):
         dfc.clean_df(path_to_raw, path_to_clean)
-    
+    print("2")
     # check if prompt is valid
     df = pd.read_csv(path_to_clean)
     condition = dfc.clean_string(condition)
     if condition not in df.values:
         raise ValueError("Not a disease")
     prompt = condition + " home remedies and treatment"
-    
+    print("3")
+    print(prompt)
     # searching using Metaphor API
     metaphor = Metaphor(API_KEYS["METAPHOR_API_KEY"])
     response_meta = metaphor.search(
@@ -56,10 +57,10 @@ def med_scraper(condition):
     )
     response_ids = [result.id for result in response_meta.results]
     response_cont = metaphor.get_contents(response_ids)
-
+    print("metaphor complete")
     response_val = [remove_html(content.extract) for content in response_cont.contents]
     str_content = functools.reduce((lambda s1, s2: s1 + ' \n\n ' + s2), response_val)
-
+    print(str_content)
     # summary and text structure using OpenAI API
     openai.api_key = API_KEYS["OPENAI_API_KEY"]
     gpt_init_prompt = f"I have {condition}, using ONLY the article info below (do not type anything else). Give me an overview of {condition}, things I should be aware of and then list the exact remedies it is recommending."
@@ -70,6 +71,7 @@ def med_scraper(condition):
         messages=[{"role":"user", "content" : gpt_prompt}]
     )
 
+    print(response_gpt.choices[0].message.content)
     return response_gpt.choices[0].message.content
 
     
