@@ -84,7 +84,6 @@
 }
 
 .loading {
-  /* margin-top: 200px; */
   margin-top: -40px;
   display: flex;
   flex-direction: column;
@@ -93,7 +92,6 @@
 }
 
 .med-resp {
-  /* margin-top: 200px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
